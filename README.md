@@ -8,8 +8,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 from sklearn.preprocessing import LabelEncoder
 
-train = pd.read_csv('C:/Users/shiva/OneDrive/Desktop/internship encryptix/titanic/Titanic-Dataset.csv')
-test = pd.read_csv('C:/Users/shiva/OneDrive/Desktop/internship encryptix/titanic/Titanic-Dataset.csv')
+train = pd.read_csv(r'C:\Users\DELL\OneDrive\Desktop\encriptyx projects\titanic survival\archive\Titanic-Dataset.csv')
+test = pd.read_csv(r'C:\Users\DELL\OneDrive\Desktop\encriptyx projects\titanic survival\archive\Titanic-Dataset.csv')
 
 print(train.head())
 print(train.info())
